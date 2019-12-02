@@ -1,8 +1,7 @@
-# openIEtriplesInference
-Open IE-triples Inference Corpus
---- this corpus is related to LREC 2020 submission.
+# Open IE-triples Inference
+Open IE-triples Inference Corpus – this corpus is related to LREC 2020 submission.
 
-# TASK DEFINITION
+# Task definition
 
 **Open IE-triples are textual triples in the form of (Subj, Rel, Obj).**
 
@@ -14,6 +13,8 @@ Given a pair of open IE-triples $p$ (premise triple) and $h$ (hypothesis triple)
 
 *Presented corpus was obtained by transformation process from SNLI and MultiNLI corpora (sentence pairs ID to SNLI and MultiNLI are provided).*
 
+# Corpus
+
 **Quantitative characteristics:**
 
 * Train: 20234 instances
@@ -22,7 +23,7 @@ Given a pair of open IE-triples $p$ (premise triple) and $h$ (hypothesis triple)
 
 **Annotation**
 
-* 3-way, Entailment, Neutra, Contradiction
+* 3-way, Entailment, Neutral, Contradiction
 
 **Format**
 
