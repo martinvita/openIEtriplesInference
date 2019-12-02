@@ -12,16 +12,17 @@ Given a pair of open IE-triples $p$ (premise triple) and $h$ (hypothesis triple)
 * *Neutral:* if the assertion expressed by $h$ might be true in case of assertion expressed $p$ is true and, moreover, the case of entailment does not hold,
 * *Contradiction:* if the meaning of $h$ is contradictory to the meaning of $p$.
 
-Presented corpus is obtain by transformation process from SNLI and MultiNLI corpora (sentence pairs ID to SNLI and MultiNLI are provided).
+*Presented corpus was obtained by transformation process from SNLI and MultiNLI corpora (sentence pairs ID to SNLI and MultiNLI are provided).*
 
-Quantitative characteristics:
-Train: 20234 instances
-Dev: 2500 instances
-Test: 2500 instances
+**Quantitative characteristics:**
+
+* Train: 20234 instances
+* Dev: 2500 instances
+* Test: 2500 instances
 
 Corpus provided in CSV format.
 
-Columns
+**Columns**
 * GoldLabel
 * Premise
 * Hypothesis
