@@ -20,14 +20,21 @@ Given a pair of open IE-triples $p$ (premise triple) and $h$ (hypothesis triple)
 * Dev: 2500 instances
 * Test: 2500 instances
 
-Corpus provided in CSV format.
+**Annotation**
+
+* 3-way, Entailment, Neutra, Contradiction
+
+**Format**
+
+* CSV format (comma separated)
 
 **Columns**
-* GoldLabel
-* Premise
-* Hypothesis
-* PairID
-* PremiseSubj
+
+* GoldLabel (from source corpora)
+* Premise (from source corpora)
+* Hypothesis (from source corpora)
+* PairID (from source corpora)
+* PremiseSubj 
 * PremiseRel
 * PremiseObj
 * HypothesisSubj
